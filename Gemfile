@@ -7,13 +7,13 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.0'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.0'
 # Use Puma as the app server
-gem 'puma'
+gem 'puma', '>= 4.3.12'
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
@@ -22,7 +22,7 @@ gem 'coffee-rails'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -51,10 +51,10 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'rdoc'
+gem 'rdoc', '>= 6.3.1'
 gem 'bootsnap'
 gem 'prawn'
 gem 'prawn-table'
 
-gem "rails-html-sanitizer", "= 1.0.3"
-gem "loofah", "= 2.0.3"
+gem "rails-html-sanitizer", "= 1.4.4"
+gem "loofah", "= 2.19.1"
